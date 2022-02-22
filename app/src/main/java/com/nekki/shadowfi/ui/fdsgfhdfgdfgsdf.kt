@@ -1,11 +1,11 @@
-package typwe.cawtr.teqwa.ui
+package com.nekki.shadowfi.ui
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import typwe.cawtr.teqwa.R
+import com.nekki.shadowfi.R
 
 class fdsgfhdfgdfgsdf : Fragment(R.layout.gfdgfdhgdg) {
 

@@ -7,23 +7,23 @@
 
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="typwe.cawtr.teqwa.ui.fdbdgfdfd"
+        android:name="com.nekki.shadowfi.ui.fdbdgfdfd"
         android:label="fragment_splash_screen"
         tools:layout="@layout/bfdgffd" />
     <fragment
         android:id="@+id/startingFragment"
 
-        android:name="typwe.cawtr.teqwa.ui.fgfggfdggfd"
+        android:name="com.nekki.shadowfi.ui.fgfggfdggfd"
         android:label="fragment_starting"
         tools:layout="@layout/fdggfgfgfdfbgdbg" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="typwe.cawtr.teqwa.ui.fdsgfhdfgdfgsdf"
+        android:name="com.nekki.shadowfi.ui.fdsgfhdfgdfgsdf"
         android:label="fragment_about"
         tools:layout="@layout/gfdgfdhgdg" />
     <fragment
         android:id="@+id/gameFragment"
-        android:name="typwe.cawtr.teqwa.ui.gffdgfdfgfdh"
+        android:name="com.nekki.shadowfi.ui.gffdgfdfgfdh"
         android:label="fragment_game"
         tools:layout="@layout/fbdgfdgdfgf" />
 </navigation>

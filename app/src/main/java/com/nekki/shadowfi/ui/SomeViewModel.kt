@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.ui
+package com.nekki.shadowfi.ui
 
 import android.content.Context
 import android.net.Uri
@@ -6,14 +6,15 @@ import android.provider.Settings
 import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 import com.appsflyer.AppsFlyerConversionListener
 import com.appsflyer.AppsFlyerLib
+import com.appsflyer.attribution.AppsFlyerRequestListener
 import com.facebook.applinks.AppLinkData
 import com.google.android.gms.ads.identifier.AdvertisingIdClient
 import com.onesignal.OneSignal
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.withContext
 import java.io.File
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
@@ -84,6 +85,7 @@ class SomeViewModel(private val context: Context) : ViewModel() {
             override fun onAttributionFailure(p0: String?) {
             }
         }
+
         AppsFlyerLib.getInstance().init("kN6t4Ac4r8UHn6TD7Z9WyN", listener, context)
         AppsFlyerLib.getInstance().start(context)
 
@@ -128,7 +130,7 @@ class SomeViewModel(private val context: Context) : ViewModel() {
 
             Log.e("URL", "2")
             val url = URL_VALUE.toUri().buildUpon().apply {
-                appendQueryParameter("gadid", getAdvId())
+                appendQueryParameter("gadid", withContext(Dispatchers.IO) { getAdvId() })
                 appendQueryParameter(
                     "af_id",
                     AppsFlyerLib.getInstance().getAppsFlyerUID(context)

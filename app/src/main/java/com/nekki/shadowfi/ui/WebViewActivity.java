@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.ui;
+package com.nekki.shadowfi.ui;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -62,7 +62,7 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import typwe.cawtr.teqwa.R;
+import com.nekki.shadowfi.R;
 
 
 public class WebViewActivity extends AppCompatActivity {

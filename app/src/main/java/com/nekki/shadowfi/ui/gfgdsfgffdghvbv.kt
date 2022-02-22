@@ -1,6 +1,6 @@
-package typwe.cawtr.teqwa.ui
+package com.nekki.shadowfi.ui
 
 import androidx.appcompat.app.AppCompatActivity
-import typwe.cawtr.teqwa.R
+import com.nekki.shadowfi.R
 
 class gfgdsfgffdghvbv : AppCompatActivity(R.layout.ffggfdgffd)

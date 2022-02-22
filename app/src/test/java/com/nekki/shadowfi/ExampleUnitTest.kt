@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa
+package com.nekki.shadowfi
 
 import org.junit.Test
 

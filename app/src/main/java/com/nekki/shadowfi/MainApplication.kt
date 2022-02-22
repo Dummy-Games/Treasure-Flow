@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa
+package com.nekki.shadowfi
 
 import android.app.Application
 import com.onesignal.OneSignal

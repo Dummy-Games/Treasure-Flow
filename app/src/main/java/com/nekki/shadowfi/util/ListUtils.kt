@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.util
+package com.nekki.shadowfi.util
 
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers

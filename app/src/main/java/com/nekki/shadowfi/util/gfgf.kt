@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.util
+package com.nekki.shadowfi.util
 
 import android.content.Context
 

@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.ui
+package com.nekki.shadowfi.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,7 +13,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
 import kotlinx.coroutines.flow.collect
-import typwe.cawtr.teqwa.R
+import com.nekki.shadowfi.R
 
 private class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {

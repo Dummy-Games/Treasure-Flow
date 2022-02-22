@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa
+package com.nekki.shadowfi
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

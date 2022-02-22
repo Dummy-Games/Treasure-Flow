@@ -1,4 +1,4 @@
-package typwe.cawtr.teqwa.ui
+package com.nekki.shadowfi.ui
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
-import typwe.cawtr.teqwa.R
-import typwe.cawtr.teqwa.util.gfbgngfbngf
-import typwe.cawtr.teqwa.util.gfgfdhgfhfd
+import com.nekki.shadowfi.R
+import com.nekki.shadowfi.util.gfbgngfbngf
+import com.nekki.shadowfi.util.gfgfdhgfhfd
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch

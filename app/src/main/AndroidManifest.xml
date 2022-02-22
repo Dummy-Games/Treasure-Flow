@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="typwe.cawtr.teqwa">
+    package="com.nekki.shadowfi">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name=".MainApplication"
+        android:name="com.nekki.shadowfi.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/fgdbnfhj"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <activity
-            android:name=".ui.gfgdsfgffdghvbv"
+            android:name="com.nekki.shadowfi.ui.gfgdsfgffdghvbv"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +29,7 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name=".ui.WebViewActivity"
+            android:name="com.nekki.shadowfi.ui.WebViewActivity"
             android:exported="false"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:windowSoftInputMode="adjustResize"/>
